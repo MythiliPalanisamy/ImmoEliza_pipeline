@@ -1,0 +1,115 @@
+[2023-11-06T10:17:31.154+0100] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cleaning_and_training_model.scrape_data manual__2023-11-06T09:13:51.249671+00:00 [queued]>
+[2023-11-06T10:17:31.163+0100] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cleaning_and_training_model.scrape_data manual__2023-11-06T09:13:51.249671+00:00 [queued]>
+[2023-11-06T10:17:31.164+0100] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2023-11-06T10:17:31.293+0100] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): scrape_data> on 2023-11-06 09:13:51.249671+00:00
+[2023-11-06T10:17:31.300+0100] {standard_task_runner.py:57} INFO - Started process 64737 to run task
+[2023-11-06T10:17:31.306+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cleaning_and_training_model', 'scrape_data', 'manual__2023-11-06T09:13:51.249671+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp8vwvdr_c']
+[2023-11-06T10:17:31.307+0100] {standard_task_runner.py:85} INFO - Job 8: Subtask scrape_data
+[2023-11-06T10:17:31.527+0100] {task_command.py:415} INFO - Running <TaskInstance: cleaning_and_training_model.scrape_data manual__2023-11-06T09:13:51.249671+00:00 [running]> on host DESKTOP-OEHM1R6.
+[2023-11-06T10:17:31.801+0100] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mythili' AIRFLOW_CTX_DAG_ID='cleaning_and_training_model' AIRFLOW_CTX_TASK_ID='scrape_data' AIRFLOW_CTX_EXECUTION_DATE='2023-11-06T09:13:51.249671+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-06T09:13:51.249671+00:00'
+[2023-11-06T10:17:31.802+0100] {logging_mixin.py:151} INFO - created merged--
+[2023-11-06T10:17:31.803+0100] {logging_mixin.py:151} INFO - opend merged--
+[2023-11-06T10:17:34.397+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'apartment', 'Price': '€288850', 'Bedrooms': '2', 'Energy class': 'B', 'Primary energy consumption': '109', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': '22', 'Surface of the plot': 0, 'Living room surface': 0, 'Number of frontages': 0, 'Construction year': '2022', 'Building condition': 'As new', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '1', 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '3'}]
+[2023-11-06T10:17:34.490+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'apartment', 'Price': '€430000', 'Bedrooms': '2', 'Energy class': 'B', 'Primary energy consumption': '111', 'Furnished': 0, 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': 0, 'Living room surface': 0, 'Number of frontages': 0, 'Construction year': '2002', 'Building condition': 'As new', 'Outdoor parking space': 0, 'Bathrooms': '2', 'Shower rooms': 0, 'Office': 'No', 'Toilets': '1', 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '8620'}]
+[2023-11-06T10:17:34.932+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€459000', 'Bedrooms': '3', 'Energy class': 'A', 'Primary energy consumption': '59', 'Furnished': 'No', 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '504', 'Living room surface': 0, 'Number of frontages': 0, 'Construction year': '1960', 'Building condition': 'Just renovated', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 'No', 'Toilets': '1', 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '8900'}]
+[2023-11-06T10:17:34.958+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'apartment', 'Price': '€229900', 'Bedrooms': '2', 'Energy class': 'B', 'Primary energy consumption': '97', 'Furnished': 'No', 'Terrace': 0, 'Terrace surface': '9', 'Surface of the plot': 0, 'Living room surface': '24', 'Number of frontages': '2', 'Construction year': '2015', 'Building condition': 'As new', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '1', 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '6800'}]
+[2023-11-06T10:17:35.098+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'apartment', 'Price': '€295000', 'Bedrooms': '2', 'Energy class': 'B', 'Primary energy consumption': '184', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': '12', 'Surface of the plot': 0, 'Living room surface': 0, 'Number of frontages': '4', 'Construction year': '2003', 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': 0, 'Kitchen type': 0, 'Heating type': 'Gas', 'postal code': '2320'}]
+[2023-11-06T10:17:35.611+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€195000', 'Bedrooms': '3', 'Energy class': 'F', 'Primary energy consumption': '428', 'Furnished': 'No', 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '117', 'Living room surface': '34', 'Number of frontages': '3', 'Construction year': '1890', 'Building condition': 0, 'Outdoor parking space': 0, 'Bathrooms': 0, 'Shower rooms': '1', 'Office': 0, 'Toilets': 0, 'Kitchen type': 0, 'Heating type': 'Fuel oil', 'postal code': '1330'}]
+[2023-11-06T10:17:35.626+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'apartment', 'Price': '€380000', 'Bedrooms': '2', 'Energy class': 'A', 'Primary energy consumption': '89', 'Furnished': 0, 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': 0, 'Living room surface': 0, 'Number of frontages': '2', 'Construction year': 0, 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': 0, 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '2000'}]
+[2023-11-06T10:17:35.636+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€749000', 'Bedrooms': '3', 'Energy class': 'A', 'Primary energy consumption': '77', 'Furnished': 'No', 'Terrace': 0, 'Terrace surface': '200', 'Surface of the plot': '2295', 'Living room surface': '76', 'Number of frontages': '3', 'Construction year': '1938', 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 0, 'postal code': '1980'}]
+[2023-11-06T10:17:35.739+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€199000', 'Bedrooms': '6', 'Energy class': 'E', 'Primary energy consumption': '442', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '216', 'Living room surface': 0, 'Number of frontages': 0, 'Construction year': '1918', 'Building condition': 'As new', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 'No', 'Toilets': 0, 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '8870'}]
+[2023-11-06T10:17:35.771+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€220000', 'Bedrooms': '2', 'Energy class': 'E', 'Primary energy consumption': '375', 'Furnished': 'No', 'Terrace': 0, 'Terrace surface': '45', 'Surface of the plot': '684', 'Living room surface': '17', 'Number of frontages': '3', 'Construction year': 0, 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '2', 'Shower rooms': '1', 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 'Fuel oil', 'postal code': '6790'}]
+[2023-11-06T10:17:35.985+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€449000', 'Bedrooms': '3', 'Energy class': 'F', 'Primary energy consumption': '626', 'Furnished': 0, 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '5707', 'Living room surface': 0, 'Number of frontages': '4', 'Construction year': '1982', 'Building condition': 'To renovate', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': 0, 'Kitchen type': 0, 'Heating type': 'Electric', 'postal code': '9255'}]
+[2023-11-06T10:17:36.032+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€369000', 'Bedrooms': '4', 'Energy class': 'F', 'Primary energy consumption': '633', 'Furnished': 'No', 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '249', 'Living room surface': '36', 'Number of frontages': '2', 'Construction year': '1955', 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 'Fuel oil', 'postal code': '1730'}]
+[2023-11-06T10:17:36.328+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€550000', 'Bedrooms': '5', 'Energy class': 'C', 'Primary energy consumption': '217', 'Furnished': 0, 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '2634', 'Living room surface': '37', 'Number of frontages': '4', 'Construction year': 0, 'Building condition': 0, 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': '1', 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '5080'}]
+[2023-11-06T10:17:36.359+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€330000', 'Bedrooms': '5', 'Energy class': 'G', 'Primary energy consumption': '571', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '532', 'Living room surface': 0, 'Number of frontages': '4', 'Construction year': '1964', 'Building condition': 'To renovate', 'Outdoor parking space': 0, 'Bathrooms': 0, 'Shower rooms': '2', 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Semi equipped', 'Heating type': 0, 'postal code': '5100'}]
+[2023-11-06T10:17:36.387+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€234000', 'Bedrooms': '3', 'Energy class': 'F', 'Primary energy consumption': '717', 'Furnished': 0, 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '274', 'Living room surface': 0, 'Number of frontages': '3', 'Construction year': '1965', 'Building condition': 'To be done up', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Semi equipped', 'Heating type': 'Fuel oil', 'postal code': '2200'}]
+[2023-11-06T10:17:37.075+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€384000', 'Bedrooms': '3', 'Energy class': 'C', 'Primary energy consumption': '229', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '157', 'Living room surface': 0, 'Number of frontages': '2', 'Construction year': 0, 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 'Fuel oil', 'postal code': '6717'}]
+[2023-11-06T10:17:37.292+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€285000', 'Bedrooms': '2', 'Energy class': 'C', 'Primary energy consumption': '217', 'Furnished': 0, 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '173', 'Living room surface': '27', 'Number of frontages': '2', 'Construction year': '1930', 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 'Gas', 'postal code': '2300'}]
+[2023-11-06T10:17:37.600+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€375000', 'Bedrooms': '3', 'Energy class': 'E', 'Primary energy consumption': '428', 'Furnished': 'No', 'Terrace': 'Yes', 'Terrace surface': 0, 'Surface of the plot': '512', 'Living room surface': '30', 'Number of frontages': '3', 'Construction year': '1932', 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 'Yes', 'Toilets': '2', 'Kitchen type': 'Hyper equipped', 'Heating type': 'Gas', 'postal code': '1880'}]
+[2023-11-06T10:17:37.687+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€250000', 'Bedrooms': '3', 'Energy class': 'G', 'Primary energy consumption': '737', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '866', 'Living room surface': 0, 'Number of frontages': '3', 'Construction year': 0, 'Building condition': 'To renovate', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Semi equipped', 'Heating type': 'Gas', 'postal code': '6717'}]
+[2023-11-06T10:17:37.767+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€680000', 'Bedrooms': '4', 'Energy class': 'B', 'Primary energy consumption': '135', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': '40', 'Surface of the plot': '257', 'Living room surface': '42', 'Number of frontages': '2', 'Construction year': 0, 'Building condition': 'Good', 'Outdoor parking space': 0, 'Bathrooms': '2', 'Shower rooms': 0, 'Office': 0, 'Toilets': '3', 'Kitchen type': 'Hyper equipped', 'Heating type': 'Gas', 'postal code': '2600'}]
+[2023-11-06T10:17:37.808+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€429000', 'Bedrooms': '2', 'Energy class': 'E', 'Primary energy consumption': '421', 'Furnished': 0, 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '370', 'Living room surface': 0, 'Number of frontages': '3', 'Construction year': 0, 'Building condition': 'Just renovated', 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': '2', 'Kitchen type': 'Installed', 'Heating type': 'Fuel oil', 'postal code': '6717'}]
+[2023-11-06T10:17:37.857+0100] {logging_mixin.py:151} INFO - [{'Type_of_property': 'house', 'Price': '€', 'Bedrooms': '3', 'Energy class': 'Not specified', 'Primary energy consumption': 'Not specified', 'Furnished': 'No', 'Terrace': 0, 'Terrace surface': 0, 'Surface of the plot': '200', 'Living room surface': 0, 'Number of frontages': '3', 'Construction year': 0, 'Building condition': 0, 'Outdoor parking space': 0, 'Bathrooms': '1', 'Shower rooms': 0, 'Office': 0, 'Toilets': 0, 'Kitchen type': 0, 'Heating type': 0, 'postal code': '20'}]
+[2023-11-06T10:17:37.859+0100] {logging_mixin.py:151} INFO - scraped house details--
+[2023-11-06T10:17:37.859+0100] {logging_mixin.py:151} INFO - Time Taken: 6.054918s
+[2023-11-06T10:17:37.859+0100] {logging_mixin.py:151} INFO - skipped urls:  []
+[2023-11-06T10:17:37.868+0100] {logging_mixin.py:151} INFO - created scraped csv---
+[2023-11-06T10:17:37.868+0100] {python.py:194} INFO - Done. Returned value was:    Type_of_property    Price Bedrooms   Energy class Primary energy consumption  ... Office Toilets    Kitchen type Heating type postal code
+0         apartment  €229900        2              B                         97  ...      0       1       Installed          Gas        6800
+1         apartment  €295000        2              B                        184  ...      0       0               0          Gas        2320
+2         apartment  €430000        2              B                        111  ...     No       1       Installed          Gas        8620
+3         apartment  €380000        2              A                         89  ...      0       0       Installed          Gas        2000
+4         apartment  €288850        2              B                        109  ...      0       1       Installed          Gas           3
+5             house  €220000        2              E                        375  ...      0       2       Installed     Fuel oil        6790
+6             house  €749000        3              A                         77  ...      0       2       Installed            0        1980
+7             house  €449000        3              F                        626  ...      0       0               0     Electric        9255
+8             house  €195000        3              F                        428  ...      0       0               0     Fuel oil        1330
+9             house  €459000        3              A                         59  ...     No       1       Installed          Gas        8900
+10            house  €199000        6              E                        442  ...     No       0       Installed          Gas        8870
+11            house  €369000        4              F                        633  ...      0       2       Installed     Fuel oil        1730
+12            house  €330000        5              G                        571  ...      0       2   Semi equipped            0        5100
+13            house  €550000        5              C                        217  ...      0       2       Installed          Gas        5080
+14            house  €234000        3              F                        717  ...      0       2   Semi equipped     Fuel oil        2200
+15            house  €285000        2              C                        217  ...      0       2       Installed          Gas        2300
+16            house  €375000        3              E                        428  ...    Yes       2  Hyper equipped          Gas        1880
+17            house  €384000        3              C                        229  ...      0       2       Installed     Fuel oil        6717
+18            house  €250000        3              G                        737  ...      0       2   Semi equipped          Gas        6717
+19            house  €429000        2              E                        421  ...      0       2       Installed     Fuel oil        6717
+20            house  €680000        4              B                        135  ...      0       3  Hyper equipped          Gas        2600
+21            house        €        3  Not specified              Not specified  ...      0       0               0            0          20
+
+[22 rows x 21 columns]
+[2023-11-06T10:17:37.939+0100] {xcom.py:661} ERROR - Object of type DataFrame is not JSON serializable. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your airflow config or make sure to decorate your object with attr.
+[2023-11-06T10:17:37.940+0100] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/utils/json.py", line 91, in default
+    return serialize(o)
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/serialization/serde.py", line 143, in serialize
+    data, classname, version, is_serialized = _serializers[qn].serialize(o)
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/serialization/serializers/pandas.py", line 49, in serialize
+    table = pa.Table.from_pandas(o)
+  File "pyarrow/table.pxi", line 3869, in pyarrow.lib.Table.from_pandas
+  File "/home/mythili/.local/lib/python3.10/site-packages/pyarrow/pandas_compat.py", line 613, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+  File "/home/mythili/.local/lib/python3.10/site-packages/pyarrow/pandas_compat.py", line 613, in <listcomp>
+    arrays = [convert_column(c, f)
+  File "/home/mythili/.local/lib/python3.10/site-packages/pyarrow/pandas_compat.py", line 600, in convert_column
+    raise e
+  File "/home/mythili/.local/lib/python3.10/site-packages/pyarrow/pandas_compat.py", line 594, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 340, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 86, in pyarrow.lib._ndarray_to_array
+  File "pyarrow/error.pxi", line 91, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'int' object", 'Conversion failed for column Furnished with type object')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2477, in xcom_push
+    XCom.set(
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 74, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/models/xcom.py", line 244, in set
+    value = cls.serialize_value(
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/models/xcom.py", line 659, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/utils/json.py", line 104, in encode
+    return super().encode(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/mythili/.local/lib/python3.10/site-packages/airflow/utils/json.py", line 93, in default
+    return super().default(o)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type DataFrame is not JSON serializable
+[2023-11-06T10:17:37.946+0100] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=cleaning_and_training_model, task_id=scrape_data, execution_date=20231106T091351, start_date=20231106T091731, end_date=20231106T091737
+[2023-11-06T10:17:38.103+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task scrape_data (Object of type DataFrame is not JSON serializable; 64737)
+[2023-11-06T10:17:38.121+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-11-06T10:17:38.141+0100] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

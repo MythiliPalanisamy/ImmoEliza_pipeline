@@ -1,0 +1,18 @@
+[2023-11-06T10:08:01.873+0100] {processor.py:157} INFO - Started process (PID=61619) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-11-06T10:08:01.874+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-11-06T10:08:01.888+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:01.875+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-11-06T10:08:01.910+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-11-06T10:08:05.166+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:05.165+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:05.335+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:05.335+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:05.456+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:05.456+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:05.457+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:05.457+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_xcom_args' as access control is unset.
+[2023-11-06T10:08:05.834+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:05.834+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:05.966+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:05.965+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:06.075+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.075+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:06.076+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.076+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_xcom_args_with_operators' as access control is unset.
+[2023-11-06T10:08:06.076+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.076+0100] {dag.py:2915} INFO - Sync 2 DAGs
+[2023-11-06T10:08:06.091+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.090+0100] {dag.py:2937} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2023-11-06T10:08:06.093+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.092+0100] {dag.py:2937} INFO - Creating ORM DAG for example_xcom_args
+[2023-11-06T10:08:06.094+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.094+0100] {dag.py:3696} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-11-06T10:08:06.095+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:06.095+0100] {dag.py:3696} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-11-06T10:08:07.113+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 5.245 seconds

@@ -1,0 +1,55 @@
+[2023-11-06T10:11:52.895+0100] {processor.py:157} INFO - Started process (PID=62462) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:11:52.896+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:11:52.898+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:11:52.897+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:11:53.594+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:11:53.607+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.716 seconds
+[2023-11-06T10:12:53.178+0100] {processor.py:157} INFO - Started process (PID=62685) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:12:53.273+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:12:53.274+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:12:53.274+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:12:54.128+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:12:54.139+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.964 seconds
+[2023-11-06T10:13:44.618+0100] {processor.py:157} INFO - Started process (PID=62823) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:13:44.718+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:13:44.719+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:13:44.718+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:13:45.608+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:13:45.621+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 1.007 seconds
+[2023-11-06T10:22:23.405+0100] {processor.py:157} INFO - Started process (PID=66140) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:22:23.468+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:22:23.470+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:22:23.469+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:22:24.246+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:22:24.255+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.854 seconds
+[2023-11-06T10:23:17.591+0100] {processor.py:157} INFO - Started process (PID=66387) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:23:17.692+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:23:17.694+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:23:17.693+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:23:18.256+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:23:18.262+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.675 seconds
+[2023-11-06T10:24:17.166+0100] {processor.py:157} INFO - Started process (PID=66789) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:24:17.182+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:24:17.184+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:24:17.183+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:24:17.820+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:24:17.827+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.669 seconds
+[2023-11-06T10:58:45.667+0100] {processor.py:157} INFO - Started process (PID=89882) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:58:45.686+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:58:45.688+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:58:45.687+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:58:46.296+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:58:46.304+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.640 seconds
+[2023-11-06T10:59:36.590+0100] {processor.py:157} INFO - Started process (PID=89981) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:59:36.611+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T10:59:36.613+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:59:36.612+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:59:37.187+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T10:59:37.196+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.609 seconds
+[2023-11-06T11:00:33.049+0100] {processor.py:157} INFO - Started process (PID=90113) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:00:33.061+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T11:00:33.063+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:00:33.062+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:00:33.704+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:00:33.713+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.668 seconds
+[2023-11-06T11:01:26.410+0100] {processor.py:157} INFO - Started process (PID=90244) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:01:26.423+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T11:01:26.424+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:01:26.424+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:01:27.080+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:01:27.087+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.680 seconds
+[2023-11-06T11:02:20.030+0100] {processor.py:157} INFO - Started process (PID=90449) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:02:20.139+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py for tasks to queue
+[2023-11-06T11:02:20.141+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:02:20.140+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:02:20.787+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py
+[2023-11-06T11:02:20.795+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/prediction.py took 0.767 seconds

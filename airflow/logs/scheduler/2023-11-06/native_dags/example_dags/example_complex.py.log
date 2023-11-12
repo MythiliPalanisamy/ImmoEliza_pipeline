@@ -1,0 +1,12 @@
+[2023-11-06T10:08:13.894+0100] {processor.py:157} INFO - Started process (PID=61786) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-06T10:08:13.895+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-06T10:08:13.896+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:13.895+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-06T10:08:13.909+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-06T10:08:14.390+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.390+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:14.544+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.544+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:14.725+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.725+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:14.725+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.725+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_complex' as access control is unset.
+[2023-11-06T10:08:14.726+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.726+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:08:14.747+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.746+0100] {dag.py:2937} INFO - Creating ORM DAG for example_complex
+[2023-11-06T10:08:14.748+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:14.748+0100] {dag.py:3696} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-06T10:08:14.930+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 1.040 seconds

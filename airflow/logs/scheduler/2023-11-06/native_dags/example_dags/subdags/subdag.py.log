@@ -1,0 +1,5 @@
+[2023-11-06T10:06:22.846+0100] {processor.py:157} INFO - Started process (PID=60643) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-06T10:06:22.848+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-06T10:06:22.849+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:22.848+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-06T10:06:22.851+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-06T10:06:22.867+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.028 seconds

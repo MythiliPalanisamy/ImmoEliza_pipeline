@@ -1,0 +1,12 @@
+[2023-11-06T10:07:10.599+0100] {processor.py:157} INFO - Started process (PID=61180) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-06T10:07:10.600+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2023-11-06T10:07:10.601+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:10.601+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-06T10:07:10.612+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py
+[2023-11-06T10:07:11.040+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.040+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:11.150+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.149+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:11.309+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.309+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:11.309+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.309+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:tutorial' as access control is unset.
+[2023-11-06T10:07:11.309+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.309+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:07:11.323+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.323+0100] {dag.py:2937} INFO - Creating ORM DAG for tutorial
+[2023-11-06T10:07:11.338+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:11.338+0100] {dag.py:3696} INFO - Setting next_dagrun for tutorial to 2023-11-05T09:07:11.337898+00:00, run_after=2023-11-06T09:07:11.337898+00:00
+[2023-11-06T10:07:11.516+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial.py took 0.921 seconds

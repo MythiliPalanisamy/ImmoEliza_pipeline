@@ -1,0 +1,42 @@
+[2023-11-06T10:07:14.591+0100] {processor.py:157} INFO - Started process (PID=61210) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-06T10:07:14.592+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2023-11-06T10:07:14.594+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:14.593+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-06T10:07:14.610+0100] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_produces_1', 'dataset_consumes_1_and_2', 'dataset_consumes_1_never_scheduled', 'dataset_consumes_1', 'dataset_consumes_unknown_never_scheduled', 'dataset_produces_2']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-06T10:07:15.066+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.065+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:15.175+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.175+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:15.335+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.334+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:15.335+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.335+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_produces_1' as access control is unset.
+[2023-11-06T10:07:15.589+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.589+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:15.699+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.699+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:15.820+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.819+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:15.820+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:15.820+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_1_and_2' as access control is unset.
+[2023-11-06T10:07:16.075+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:16.074+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:16.184+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:16.184+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:16.344+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:16.343+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:16.344+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:16.344+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_1_never_scheduled' as access control is unset.
+[2023-11-06T10:07:16.780+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:16.780+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:16.990+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:16.990+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:17.099+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.099+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:17.100+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.099+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_1' as access control is unset.
+[2023-11-06T10:07:17.376+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.376+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:17.486+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.486+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:17.607+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.607+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:17.607+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.607+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_consumes_unknown_never_scheduled' as access control is unset.
+[2023-11-06T10:07:17.826+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.826+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:17.936+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:17.935+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:18.070+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.070+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:18.071+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.070+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:dataset_produces_2' as access control is unset.
+[2023-11-06T10:07:18.071+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.071+0100] {dag.py:2915} INFO - Sync 6 DAGs
+[2023-11-06T10:07:18.088+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.088+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_unknown_never_scheduled
+[2023-11-06T10:07:18.089+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.089+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_1
+[2023-11-06T10:07:18.089+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.089+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_1_never_scheduled
+[2023-11-06T10:07:18.090+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.090+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_produces_2
+[2023-11-06T10:07:18.090+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.090+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_consumes_1_and_2
+[2023-11-06T10:07:18.091+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.091+0100] {dag.py:2937} INFO - Creating ORM DAG for dataset_produces_1
+[2023-11-06T10:07:18.103+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.102+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2023-11-06T10:07:18.104+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.104+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2023-11-06T10:07:18.104+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.104+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2023-11-06T10:07:18.105+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.105+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2023-11-06T10:07:18.107+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.107+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_produces_1 to 2023-11-05T00:00:00+00:00, run_after=2023-11-06T00:00:00+00:00
+[2023-11-06T10:07:18.108+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:18.108+0100] {dag.py:3696} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2023-11-06T10:07:18.278+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 3.691 seconds

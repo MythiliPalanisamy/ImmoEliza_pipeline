@@ -1,0 +1,12 @@
+[2023-11-06T10:07:49.146+0100] {processor.py:157} INFO - Started process (PID=61596) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-06T10:07:49.149+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-06T10:07:49.153+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:49.150+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-06T10:07:49.178+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-06T10:07:50.055+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.055+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:50.497+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.496+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:50.793+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.793+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:50.794+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.794+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_xcom' as access control is unset.
+[2023-11-06T10:07:50.794+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.794+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:07:50.816+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.816+0100] {dag.py:2937} INFO - Creating ORM DAG for example_xcom
+[2023-11-06T10:07:50.834+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:50.833+0100] {dag.py:3696} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-06T10:07:51.030+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 1.888 seconds

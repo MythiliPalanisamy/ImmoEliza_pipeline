@@ -1,0 +1,12 @@
+[2023-11-06T10:06:48.873+0100] {processor.py:157} INFO - Started process (PID=60919) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-11-06T10:06:48.875+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-11-06T10:06:48.877+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:48.876+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-11-06T10:06:48.897+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-11-06T10:06:55.064+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:55.064+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:06:56.911+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:56.911+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:06:59.974+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:59.973+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:06:59.974+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:59.974+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_trigger_controller_dag' as access control is unset.
+[2023-11-06T10:06:59.974+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:59.974+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:06:59.991+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:06:59.991+0100] {dag.py:2937} INFO - Creating ORM DAG for example_trigger_controller_dag
+[2023-11-06T10:07:00.138+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:00.137+0100] {dag.py:3696} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-06T10:07:02.533+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 13.666 seconds

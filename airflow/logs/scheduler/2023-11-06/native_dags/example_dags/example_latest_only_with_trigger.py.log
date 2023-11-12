@@ -1,0 +1,12 @@
+[2023-11-06T10:07:30.245+0100] {processor.py:157} INFO - Started process (PID=61365) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-11-06T10:07:30.246+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-11-06T10:07:30.248+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:30.247+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-11-06T10:07:30.257+0100] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-11-06T10:07:30.733+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:30.733+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:30.879+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:30.878+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:30.989+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:30.988+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:30.989+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:30.989+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:latest_only_with_trigger' as access control is unset.
+[2023-11-06T10:07:30.990+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:30.989+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:07:31.017+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:31.017+0100] {dag.py:2937} INFO - Creating ORM DAG for latest_only_with_trigger
+[2023-11-06T10:07:31.035+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:31.035+0100] {dag.py:3696} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-11-06T05:07:31.035262+00:00, run_after=2023-11-06T09:07:31.035262+00:00
+[2023-11-06T10:07:31.192+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.951 seconds

@@ -1,0 +1,21 @@
+[2023-11-06T10:26:07.170+0100] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cleaning_and_training_model1.Scraping_url manual__2023-11-06T09:24:28.566992+00:00 [queued]>
+[2023-11-06T10:26:07.179+0100] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cleaning_and_training_model1.Scraping_url manual__2023-11-06T09:24:28.566992+00:00 [queued]>
+[2023-11-06T10:26:07.180+0100] {taskinstance.py:1359} INFO - Starting attempt 1 of 4
+[2023-11-06T10:26:07.299+0100] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): Scraping_url> on 2023-11-06 09:24:28.566992+00:00
+[2023-11-06T10:26:07.307+0100] {standard_task_runner.py:57} INFO - Started process 68062 to run task
+[2023-11-06T10:26:07.312+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cleaning_and_training_model1', 'Scraping_url', 'manual__2023-11-06T09:24:28.566992+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/main.py', '--cfg-path', '/tmp/tmp68uem0vm']
+[2023-11-06T10:26:07.314+0100] {standard_task_runner.py:85} INFO - Job 12: Subtask Scraping_url
+[2023-11-06T10:26:07.466+0100] {task_command.py:415} INFO - Running <TaskInstance: cleaning_and_training_model1.Scraping_url manual__2023-11-06T09:24:28.566992+00:00 [running]> on host DESKTOP-OEHM1R6.
+[2023-11-06T10:26:07.807+0100] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mythili' AIRFLOW_CTX_DAG_ID='cleaning_and_training_model1' AIRFLOW_CTX_TASK_ID='Scraping_url' AIRFLOW_CTX_EXECUTION_DATE='2023-11-06T09:24:28.566992+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-11-06T09:24:28.566992+00:00'
+[2023-11-06T10:26:10.811+0100] {logging_mixin.py:151} INFO - https://www.immoweb.be/en/search/apartment/for-sale?countries=BE&orderBy=newest&page=1
+[2023-11-06T10:26:11.822+0100] {logging_mixin.py:151} INFO - list length:  30
+[2023-11-06T10:26:13.825+0100] {logging_mixin.py:151} INFO - https://www.immoweb.be/en/search/apartment/for-sale?countries=BE&orderBy=newest&page=2
+[2023-11-06T10:26:15.287+0100] {logging_mixin.py:151} INFO - list length:  60
+[2023-11-06T10:26:18.291+0100] {logging_mixin.py:151} INFO - https://www.immoweb.be/en/search/house/for-sale?countries=BE&orderBy=newest&page=1
+[2023-11-06T10:26:19.239+0100] {logging_mixin.py:151} INFO - list length:  90
+[2023-11-06T10:26:20.241+0100] {logging_mixin.py:151} INFO - https://www.immoweb.be/en/search/house/for-sale?countries=BE&orderBy=newest&page=2
+[2023-11-06T10:26:21.074+0100] {logging_mixin.py:151} INFO - list length:  120
+[2023-11-06T10:26:21.080+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-06T10:26:21.089+0100] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=cleaning_and_training_model1, task_id=Scraping_url, execution_date=20231106T092428, start_date=20231106T092607, end_date=20231106T092621
+[2023-11-06T10:26:21.239+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-06T10:26:21.261+0100] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

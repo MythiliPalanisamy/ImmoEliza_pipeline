@@ -1,0 +1,12 @@
+[2023-11-06T10:07:39.269+0100] {processor.py:157} INFO - Started process (PID=61480) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-11-06T10:07:39.270+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-11-06T10:07:39.270+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:39.270+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-11-06T10:07:39.280+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-11-06T10:07:40.595+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:40.595+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:40.728+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:40.727+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:40.859+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:40.858+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:07:40.859+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:40.859+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_skip_dag' as access control is unset.
+[2023-11-06T10:07:40.859+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:40.859+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:07:40.985+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:40.984+0100] {dag.py:2937} INFO - Creating ORM DAG for example_skip_dag
+[2023-11-06T10:07:41.007+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:07:41.006+0100] {dag.py:3696} INFO - Setting next_dagrun for example_skip_dag to 2023-11-05T09:07:41.005711+00:00, run_after=2023-11-06T09:07:41.005711+00:00
+[2023-11-06T10:07:41.198+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 1.932 seconds

@@ -1,0 +1,12 @@
+[2023-11-06T10:08:34.357+0100] {processor.py:157} INFO - Started process (PID=61978) to work on /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2023-11-06T10:08:34.358+0100] {processor.py:829} INFO - Processing file /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py for tasks to queue
+[2023-11-06T10:08:34.359+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:34.358+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2023-11-06T10:08:34.369+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping_with_no_taskflow_operators']) retrieved from /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py
+[2023-11-06T10:08:34.799+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:34.799+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:34.920+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:34.920+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:35.030+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:35.029+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-06T10:08:35.030+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:35.030+0100] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:example_dynamic_task_mapping_with_no_taskflow_operators' as access control is unset.
+[2023-11-06T10:08:35.030+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:35.030+0100] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-11-06T10:08:35.050+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:35.050+0100] {dag.py:2937} INFO - Creating ORM DAG for example_dynamic_task_mapping_with_no_taskflow_operators
+[2023-11-06T10:08:35.068+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:08:35.068+0100] {dag.py:3696} INFO - Setting next_dagrun for example_dynamic_task_mapping_with_no_taskflow_operators to 2023-11-05T09:08:35.067988+00:00, run_after=2023-11-06T09:08:35.067988+00:00
+[2023-11-06T10:08:35.233+0100] {processor.py:179} INFO - Processing /home/mythili/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping_with_no_taskflow_operators.py took 0.881 seconds

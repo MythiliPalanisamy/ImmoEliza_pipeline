@@ -1,0 +1,120 @@
+[2023-11-06T10:11:24.769+0100] {processor.py:157} INFO - Started process (PID=62419) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:11:24.770+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:11:24.771+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:11:24.770+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:11:26.937+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:11:26.937 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:11:26.938+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:11:26.945+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.179 seconds
+[2023-11-06T10:12:28.465+0100] {processor.py:157} INFO - Started process (PID=62589) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:12:28.493+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:12:28.494+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:12:28.494+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:12:30.737+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:12:30.736 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:12:30.738+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:12:30.745+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.284 seconds
+[2023-11-06T10:13:20.468+0100] {processor.py:157} INFO - Started process (PID=62774) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:13:20.469+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:13:20.470+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:13:20.470+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:13:22.812+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:13:22.811 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:13:22.813+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:13:22.819+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.355 seconds
+[2023-11-06T10:21:57.647+0100] {processor.py:157} INFO - Started process (PID=65932) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:21:57.658+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:21:57.659+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:21:57.659+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:22:00.104+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:22:00.104 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:22:00.105+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:22:00.196+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.551 seconds
+[2023-11-06T10:22:52.573+0100] {processor.py:157} INFO - Started process (PID=66256) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:22:52.579+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:22:52.580+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:22:52.580+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:22:54.885+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:22:54.885 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:22:54.886+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:22:54.894+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.327 seconds
+[2023-11-06T10:23:49.824+0100] {processor.py:157} INFO - Started process (PID=66561) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:23:49.854+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:23:49.856+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:23:49.856+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:23:52.783+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:23:52.782 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:23:52.784+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:23:52.791+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.972 seconds
+[2023-11-06T10:58:18.398+0100] {processor.py:157} INFO - Started process (PID=89839) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:58:18.496+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:58:18.498+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:58:18.497+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:58:20.657+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:58:20.657 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:58:20.659+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:58:20.666+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.271 seconds
+[2023-11-06T10:59:10.897+0100] {processor.py:157} INFO - Started process (PID=89938) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:59:10.995+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T10:59:10.996+0100] {logging_mixin.py:151} INFO - [2023-11-06T10:59:10.995+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:59:13.128+0100] {logging_mixin.py:151} WARNING - 2023-11-06 10:59:13.127 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T10:59:13.129+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T10:59:13.136+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.242 seconds
+[2023-11-06T11:00:05.189+0100] {processor.py:157} INFO - Started process (PID=90037) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:00:05.285+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T11:00:05.286+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:00:05.286+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:00:07.486+0100] {logging_mixin.py:151} WARNING - 2023-11-06 11:00:07.486 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T11:00:07.487+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:00:07.495+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.309 seconds
+[2023-11-06T11:01:02.599+0100] {processor.py:157} INFO - Started process (PID=90169) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:01:02.611+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T11:01:02.614+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:01:02.613+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:01:05.145+0100] {logging_mixin.py:151} WARNING - 2023-11-06 11:01:05.145 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T11:01:05.148+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:01:05.156+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.563 seconds
+[2023-11-06T11:01:56.399+0100] {processor.py:157} INFO - Started process (PID=90330) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:01:56.503+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T11:01:56.504+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:01:56.504+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:01:58.720+0100] {logging_mixin.py:151} WARNING - 2023-11-06 11:01:58.720 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T11:01:58.721+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:01:58.729+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.333 seconds
+[2023-11-06T11:02:46.296+0100] {processor.py:157} INFO - Started process (PID=90516) to work on /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:02:46.451+0100] {processor.py:829} INFO - Processing file /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py for tasks to queue
+[2023-11-06T11:02:46.452+0100] {logging_mixin.py:151} INFO - [2023-11-06T11:02:46.451+0100] {dagbag.py:539} INFO - Filling up the DagBag from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:02:48.625+0100] {logging_mixin.py:151} WARNING - 2023-11-06 11:02:48.625 
+  Warning: to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run /home/mythili/.local/bin/airflow [ARGUMENTS]
+[2023-11-06T11:02:48.626+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py
+[2023-11-06T11:02:48.633+0100] {processor.py:179} INFO - Processing /home/mythili/becode/ImmoEliza_pipeline/airflow/dags/src/stream.py took 2.341 seconds
